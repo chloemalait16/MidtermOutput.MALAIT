@@ -1,0 +1,227 @@
+
+body {
+    font-family: 'M PLUS Rounded 1c';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #d6001c;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.order-now {
+    background: #fb8205;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'M PLUS Rounded 1c';
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5cap;
+}
+.line{
+    height: 10px;
+    width: auto;
+    background-color: rgb(255, 149, 32);
+}
+.menu-icon{
+    display: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    height: 500px;
+    background: linear-gradient(to bottom, #FF0000, #008080);
+}
+.pic{
+     align-self: center;
+     justify-content: center;
+     margin-top: -30px;
+     height: 550px;
+     width: 1000px;
+}
+.liner{
+    height: 10px;
+    width: auto;
+    background: linear-gradient(to left, #980404, #9f0505, #a70606, #ae0707, #b60808, #c9212f, #d8384f, #e34f6f, #ea80ab, #e8aed8, #ebd9f3, #ffffff);
+}
+
+.line2{
+    height: 10px;
+    width: auto;
+    background-color: #009ca5;
+}
+
+.menu {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu h2 {
+    font-family: 'M PLUS Rounded 1c';
+    font-weight: 900;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #e73128;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .menu-item {
+    text-align: center;
+  }
+  
+  .menu-item img {
+    max-width: 70%; 
+  }
+.menu-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #e73128;
+}
+.cta {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cta button {
+    margin-top: 100px;
+    background-color:#fb8001;
+    font-family: 'M PLUS Rounded 1c';
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 3cap;
+    cursor: pointer;
+}
+.about {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 40px 20px;
+  
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left; 
+    display: inline-block; 
+}
+
+.about img {
+    width: 500px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.about-text h3 {
+    font-family: 'M PLUS Rounded 1c';
+    font-weight: 5000;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 16px;
+    font-family: 'M PLUS Rounded 1c';
+    line-height: 1.5;
+}
+.footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.footer h2 {
+    margin-top: 50px;
+    color: #000000;
+    font-size: 24px;
+ 
+    font-weight: bold;
+    margin-bottom: 20px;
+
+   
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social-icons img{
+    height: 30px;
+   margin-top: 0px;
+    width: 30px;
+}
+.icon:hover {
+    background-color: #e73128;
+    color: #fff;
+    transform: scale(1.1);
+}
+@media (max-width: 740px) and (min-width: 400px){
+    .menu-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+      .menu-item {
+        flex-basis: 100%; 
+      }
+    .nav {
+        display: none;
+    }
+    .header{
+        height: 80px;
+    }
+    .menu-icon {
+        display: block;
+        height: 50px;
+        width: 50px;
+    }
+    .pic{
+        width: 500px;
+        height: 300px;
+    }
+    .banner{
+        height: 300px;
+    }
+    .about-text h3{
+        font-size: 20px;
+    }
+    .about-text p{
+        font-size: 10px;
+    }
+    .about img{
+        height: 150px;
+        width: 200px;
+    }
+}
